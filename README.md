@@ -1,2 +1,2 @@
-# Web50
+# me50
 Web Programming with Python and JavaScript
