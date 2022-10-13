@@ -1,0 +1,57 @@
+.google{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    height: 25rem;
+    position: fixed;  
+}
+
+/*Centering Google and search*/
+#center {
+    text-align: center;
+}
+
+/*rounding the edges of text box*/
+.rounded {
+    padding: 20px;
+    border-radius: 25px;
+    width: 330px;
+}
+
+/*google logo*/
+h1 {
+    display: inline-block;
+    font-size: 90px;
+    font-family: Product, sans-serif;
+}
+/*images next to google*/
+.images {
+    color: blue;
+    font: 20px/20px roboto-regular, arial, sans-serif;
+    left: 480px;
+    top: 115px;
+    position: fixed;
+    white-space: nowrap;
+}
+
+
+#one{
+    color: blue;
+}
+#two {
+    color: red;
+}
+#three {
+    color: #fbb205;
+}
+#four {
+    color: #34a853;
+}
+
+/*google search in images to float right*/
+#gsearch {
+    float: right;
+    margin-right: 15px;
+}
+

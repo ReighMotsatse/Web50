@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Search</title>
+        <style>
+            .topright{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+            
+            .navbar{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li{
+                float: right;
+              
+            }
+
+            li a{
+                display: block;
+                padding: 8px;
+                background-color: #f1f1f1;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <!--links to Google Image or Advanced Search must be at upper right corner-->
+        <ul class="navbar topright">
+            <li class="navbar-item">
+            <a href="image.html">Images</a>
+            </li>
+            <li>
+            <a href="advanced.html">Advanced Search</a>
+            </li>
+        </ul>
+        <p></p>
+     
+        <form action="https://google.com/search" id="center">
+            <div class="google">
+                <h1 id="one">G</h1> <h1 id="two">o</h1> <h1 id="three">o</h1> <h1 id="one">g</h1> <h1 id="four">l</h1> <h1 id="two">e</h1>
+                <div></div>
+                <input type="text" name="q" class="rounded" placeholder="Search Google or type a URL"> <!--only the q parameter is required to perform a google search-->
+                <p></p>
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm feeling lucky">
+            </div>
+        </form>
+
+    </body>
+</html>
